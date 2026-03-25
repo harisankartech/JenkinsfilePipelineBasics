@@ -6,14 +6,14 @@ pipeline{
 
 stage('Develop'){
   
-  stage{
+  steps{
     echo "Developing the system"
   }
   
 }
 
 stage('Test'){
-  stage{
+  steps{
     echo "Testing the system"
   }
   
